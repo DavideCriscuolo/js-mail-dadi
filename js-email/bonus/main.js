@@ -16,7 +16,9 @@ for (let i = 0; i < emails.length; i++) {
 }
 if (emailPresente === true) {
   console.log("la tua email è presente");
-} else console.log("La tua email non è presente nella lista");
+} else {
+  console.log("La tua email non è presente nella lista");
+}
 
 //aggiunto un altro ciclo for con condizioni per far registrare l'email dell utente nella lista
 
